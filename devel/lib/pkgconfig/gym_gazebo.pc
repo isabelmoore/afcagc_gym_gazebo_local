@@ -1,0 +1,8 @@
+prefix=/home/wizard/afcagc_gym_gazebo/devel
+
+Name: gym_gazebo
+Description: Description of gym_gazebo
+Version: 0.0.0
+Cflags: -I/home/wizard/afcagc_gym_gazebo/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs nav_msgs geometry_msgs message_runtime

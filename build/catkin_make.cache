@@ -1,0 +1,2 @@
+gym_gazebo
+-DCATKIN_DEVEL_PREFIX=/home/wizard/afcagc_gym_gazebo/devel -DCMAKE_INSTALL_PREFIX=/home/wizard/afcagc_gym_gazebo/install -G Unix Makefiles

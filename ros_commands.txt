@@ -1,0 +1,8 @@
+rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+
+roslaunch jackal_gazebo jackal_world.launch
+
+tensorboard --logdir logs inside /scripts
+
+./src/gym_gazebo/launch/train_model.sh
+
